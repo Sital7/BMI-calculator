@@ -1,0 +1,168 @@
+/* Normal Calculator using react
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+  }
+  
+  .calculator {
+    width: 300px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .display {
+    padding: 20px;
+    font-size: 1.5rem;
+    background: #f7f7f7;
+    border-bottom: 1px solid #ddd;
+    text-align: right;
+  }
+  
+  .result {
+    color: #999;
+    font-size: 1.2rem;
+  }
+  
+  .keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  button {
+    font-size: 1rem;
+    padding: 15px;
+    background: #0072c3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #005a9e;
+  }
+  
+  button:active {
+    background: #003e7e;
+  }
+   */
+
+/* BMI Calculator  */
+   body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+  }
+
+  #height, #weight {
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  
+  input:focus {
+    border-color: #0072c3;
+  }
+  .height-inputs {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .height-inputs input {
+    width: 50%;
+  }
+  
+  
+  button {
+    margin: 10px 5px;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #fff;
+    background: #0072c3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #005a9e;
+  }
+  
+  .reset-btn {
+    background: #d9534f;
+  }
+  
+  .reset-btn:hover {
+    background: #c9302c;
+  }
+  
+  .result {
+    margin-top: 20px;
+    padding: 10px;
+    background: #f7f7f7;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .result h2 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .result p {
+    margin: 5px 0 0;
+    color: #555;
+  }
+  
